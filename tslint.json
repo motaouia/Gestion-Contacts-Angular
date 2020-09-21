@@ -1,6 +1,11 @@
 {
   "extends": "tslint:recommended",
-  "rules": {
+  "rules":
+  {
+    "no-duplicate-variable": true,
+    "no-unsed-variable": true
+  }
+  /* {
     "array-type": false,
     "arrow-parens": false,
     "deprecation": {
@@ -84,7 +89,7 @@
     "template-no-negated-async": true,
     "use-lifecycle-interface": true,
     "use-pipe-transform-interface": true
-  },
+  },*/,
   "rulesDirectory": [
     "codelyzer"
   ]
